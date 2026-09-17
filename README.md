@@ -1,5 +1,15 @@
 # Axie Smash — proyecto ligero
 
+## Tema arcade ilustrado
+
+Esta edición reemplaza la apariencia 2XKO por un tema de recreativa no pixel art: marcos dorados, botones con relieve, paneles redondeados y arte suavizado. `css/arcade.css` contiene el tema y se carga después de los estilos estructurales.
+
+Recupera el menú directo del primer diseño: Arcade, Versus, Multijugador, Perfil, Ayuda, Controles, Opciones, Créditos y Salir, con descripciones al enfocar o pasar el cursor. Perfil y sala mantienen sus funciones actuales; los modos no implementados siguen bloqueados. Arcade es combate individual contra CPU, no una campaña de combates consecutivos.
+
+Opciones vuelve a ofrecer 1280×720/1920×1080, presentación a 30/60 FPS y volumen de efectos separado, además de idioma, volumen general y recarga de recursos. Se guardan automáticamente. La simulación continúa a 60 Hz y los sprites a 12/15 FPS independientemente de la presentación. Conserva intro, roster oficial, PNG, VS, cuenta regresiva, rondas, AXP/Overdrive, teclado remapeable, gamepad y controles táctiles.
+
+Publica únicamente el contenido de esta carpeta. No es necesario usar los archivos HTML grandes de ediciones anteriores.
+
 ## Estructura entregada
 
 ```text
